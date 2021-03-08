@@ -1,4 +1,4 @@
-# covid19-impfung-de
+# Coronavius-Impfdaten aus Deutschland (covid19-impfung-de)
 Impfdaten, wie sie auf https://impfdashboard.de/daten verfügbar sind, und verwandelt in das erheblich bessere JSON-Datenformat (seit 8. März 2021)
 
 ## Die Daten (JSON)
