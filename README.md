@@ -9,7 +9,9 @@ Impfdaten, wie sie auf https://impfdashboard.de/daten verfügbar sind, und verwa
 [Impf-Fortschritt nach Bundesland](json/germany_vaccinations_by_state.json)
 
 
-*gesondert optimiert
+*gesondert optimiert<br><br>
+
+Eine Besichtigung von JSON-Daten (ganz allgemein) funktioniert übrigens besonders gut, mit diesem Online-Viewer: http://jsonviewer.stack.hu/
 
 ## Originaldaten (TSV)
 [Zeitreihe der bundesweiten Impfungen](tsv/germany_vaccinations_timeseries_v2.tsv)
