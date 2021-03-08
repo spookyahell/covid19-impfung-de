@@ -1,5 +1,5 @@
 # covid19-impfung-de
-Impfdaten, wie sie auf https://impfdashboard.de/daten verfügbar sind, und verwandelt in das JSON (seit 8. März 2021)
+Impfdaten, wie sie auf https://impfdashboard.de/daten verfügbar sind, und verwandelt in das erheblich bessere JSON-Datenformat (seit 8. März 2021)
 
 ## Die Daten (JSON)
 [Zeitreihe der bundesweiten Impfungen](json/germany_vaccinations_timeseries_v2.json)
