@@ -1,7 +1,9 @@
 # Coronavius-Impfdaten aus Deutschland (covid19-impfung-de)
 Impfdaten, wie sie auf https://impfdashboard.de/daten verfügbar sind, und verwandelt in das erheblich bessere JSON-Datenformat (seit 8. März 2021)
 
-Aktuell erfolgt eine Einsendung der Daten noch ausschließlich manuell/händisch, dass soll und wird sich aber bald ändern.
+Aktuell erfolgt eine Einsendung der Daten noch ausschließlich manuell/händisch, das soll und wird sich aber bald ändern.
+
+Weil die Einsendung aber gegenwärtig noch manuell erfolgt, kann leider nicht garantiert werden, dass die Einsendung stets zum Zeitpunkt der Verfügbarkeit oder in einem ununterbrochenem Rhythmus erledigt wird (erfolgt).
 
 _Weil Sie es vermutlich nicht wissen..._ "Comirnaty" ist der Name des BioNTech/Pfizzer-Impfstoffs.
 
