@@ -16,8 +16,6 @@ _Fall Sie es immer noch nicht wissen (dann wird es langsam aber mal Zeit)..._ "C
 
 [Impf-Fortschritt nach Bundesland](json/germany_vaccinations_by_state.json) 
 
-Der Datenstand der aktuellen, offiziellen Daten kann [hier (im JSON-Format)](https://impfdashboard.de/static/data/metadata.json) abgefragt werden.<br> <br>
-
 Eine Besichtigung von JSON-Daten (ganz allgemein) funktioniert übrigens besonders gut, mit diesem Online-Viewer: http://jsonviewer.stack.hu/
 
 ## Originaldaten (TSV)
@@ -26,6 +24,8 @@ Eine Besichtigung von JSON-Daten (ganz allgemein) funktioniert übrigens besonde
 [Zeitreihe der Impfstofflieferungen](tsv/germany_deliveries_timeseries_v2.tsv)
 
 [Impf-Fortschritt nach Bundesland](tsv/germany_vaccinations_by_state.tsv)
+
+Der Datenstand der aktuellen, offiziellen Daten kann [hier (im JSON-Format)](https://impfdashboard.de/static/data/metadata.json) abgefragt werden.<br> <br>
 
 ## Datenquelle
 https://impfdashboard.de/daten
