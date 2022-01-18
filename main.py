@@ -20,7 +20,6 @@ c = TSV2JSONConverter(r'tsv\germany_deliveries_timeseries_v2.tsv')
 res = c.convert()
 
 
-
 # Datenformat der Regierung für "Zeitreihe der bundesweiten Impfungen" suckt für 'smartes' JSON, da muss noch rumgefuschelt werden
 delivery_timeseries = json.loads(res)
 
@@ -31,18 +30,26 @@ def find_vaccine_in_day(vname, day):
 			return idx
 	return -1
 	
+#~ def find_facility_in_deliveries(facility_name, facility_deliveries):
+	
+	
 for day in delivery_timeseries:
+	facility_data = {}
 	day_data = delivery_timeseries[day]
 	delivery_timeseries_new[day] = []
+	if type(day_data) is dict:
+		day_data = [day_data]
 	for entry in day_data:
+		if entry['einrichtung'] not in facility_data:
+			facility_data[entry['einrichtung']] = {}
 		vacc_in_day = find_vaccine_in_day(entry['impfstoff'], day)
-		if vacc_in_day > -1:
-			vacc_o = delivery_timeseries_new[day][vacc_in_day]
-			delivery_timeseries_new[day][vacc_in_day]['region_dosen'][entry['region']] = entry['dosen']
-		else:
+		if not (vacc_in_day > -1):
 			delivery_timeseries_new[day].append({'impfstoff': entry['impfstoff'], 'region_dosen':{}})
 			vacc_in_day = find_vaccine_in_day(entry['impfstoff'], day)
-			delivery_timeseries_new[day][vacc_in_day]['region_dosen'][entry['region']] = entry['dosen']
+		
+		facility_data[entry['einrichtung']][entry['region']] = entry['dosen']
+		delivery_timeseries_new[day][vacc_in_day]['region_dosen'] = facility_data
 			
 with open('json\germany_deliveries_timeseries_v2.json','w') as f:
 	f.write(json.dumps(delivery_timeseries_new, indent = 2))
+	#~ f.write(res)
