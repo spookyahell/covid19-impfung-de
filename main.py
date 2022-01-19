@@ -1,6 +1,6 @@
 ﻿from tsv2json import TSV2JSONConverter
 import json
-
+from copy import copy
 
 
 c = TSV2JSONConverter(r'tsv\germany_vaccinations_by_state.tsv')
@@ -15,6 +15,25 @@ with open('json\germany_vaccinations_timeseries_v2.json','w') as f:
 	f.write(res)
 
 
+# Tage mit Impfdaten zwecks besserer Nachverfolgbarkeit aufteilen nach Jahr&Monaten
+vaccinations_timeseries = json.loads(res)
+jahr_und_monat_ = None
+monthly_json = {}
+for day, day_data in vaccinations_timeseries.items():
+	jahr_und_monat = '-'.join(day.split('-')[:-1])
+	if jahr_und_monat != jahr_und_monat_:
+		if jahr_und_monat_ != None:
+			with open(f'json\germany_vaccinations_timeseries_v2_monthly\germany_vaccinations_timeseries_v2-{jahr_und_monat_}.json','w') as f:
+				f.write(json.dumps(monthly_json, indent = 2))
+			monthly_json = {}
+	monthly_json[day] = day_data
+	jahr_und_monat_ = copy(jahr_und_monat)
+	
+if len(monthly_json) > 0:
+	#~ print('Writing the last file...')
+	with open(f'json\germany_vaccinations_timeseries_v2_monthly\germany_vaccinations_timeseries_v2-{jahr_und_monat}.json','w') as f:
+		f.write(json.dumps(monthly_json, indent = 2))
+	
 
 c = TSV2JSONConverter(r'tsv\germany_deliveries_timeseries_v2.tsv')
 res = c.convert()

@@ -12,6 +12,29 @@ _Fall Sie es immer noch nicht wissen (dann wird es langsam aber mal Zeit)..._ "C
 ## Die Daten (JSON)
 [Zeitreihe der bundesweiten Impfungen](json/germany_vaccinations_timeseries_v2.json)
 
+‼️ Diese Daten sind sehr umfangreich, im Gegensatz zu den Originaldaten, da die Überschriften für die jeweiligen Daten (gemäß JSON-Format) je Datensatz erwähnt werden müssen.
+Daher habe ich beschlossen, diese Daten ab sofort zusätzlich in nach Monate aufgeteilten Dateien anzubieten.
+
+**Folgende Monate lassen sich einzeln betrachten:**<br>
+**2020:** [2020-12 (Dezember)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2020-12.json)
+
+**2021**<br>
+[2021-01 (Januar)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-01.json)<br>
+[2021-02 (Februar)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-02.json)<br>
+[2021-03 (März)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-03.json)<br>
+[2021-04 (April)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-04.json)<br>
+[2021-05 (Mai)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-05.json)<br>
+[2021-06 (Juni)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-06.json)<br>
+[2021-07 (Juli)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-07.json)<br>
+[2021-08 (August)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-08.json)<br>
+[2021-09 (September)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-09.json)<br>
+[2021-10 (Oktober)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-10.json)<br>
+[2021-11 (November)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-11.json)<br>
+[2021-12 (Dezember)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-12.json)<br>
+
+**2022:** [2022-01 (Januar)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2022-01.json)
+<hr/>
+
 [Zeitreihe der Impfstofflieferungen](json/germany_deliveries_timeseries_v2.json) (gesondert optimiert)
 
 [Impf-Fortschritt nach Bundesland](json/germany_vaccinations_by_state.json) 
