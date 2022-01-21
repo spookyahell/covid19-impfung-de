@@ -1,7 +1,51 @@
-﻿from tsv2json import TSV2JSONConverter
-import json
+﻿import json, requests, hashlib, sys
 from copy import copy
+from os.path import isfile
+from os import sep
+from tsv2json import TSV2JSONConverter
 
+# Wir prüfen zuallererst, ob es bei der Webseite selbst Änderungen gegeben hat (wenn ja, teilen wir das dem Benutzer mit und brechen den Vorgang ab)
+r = requests.get('https://impfdashboard.de/daten')
+md5_hash = hashlib.md5()
+md5_hash.update(r.content)
+digest = md5_hash.hexdigest()
+
+if isfile('impfdaten-hash'):
+	# Bei Vorhandensein eines vorherigen Hashes der Datenseite, den Hash kurz verifizieren
+	with open('impfdaten-hash') as f:
+		jso = json.loads(f.read())
+		md5_digest = jso['digest']
+		length = jso['length']
+		
+	if md5_digest == digest:
+		print('Verified by hash. Site has not changed.')
+	else:
+		print(f'''Ehrr... oops, site has changed. (Previous length was {length}, now it's {length(r.content)}
+It's good policy to check the details of those changes first. Aborting.''')
+		sys.exit(1)
+	
+else:
+	#Bei fehlen eines Hashes, den Hash und die HTML im Verzeichnis speichern
+	with open('impfdaten.html', 'wb') as f:
+		f.write(r.content)
+	with open('impfdaten-hash','w') as f:
+		f.write(json.dumps({'digest':digest,'length':len(r.content)}))
+		
+
+
+# Download der Originaldaten von impfdashboard.de
+base = 'https://impfdashboard.de/static/data/'
+
+filenames = ['germany_deliveries_timeseries_v2.tsv',
+	'germany_vaccinations_timeseries_v2.tsv',
+	'germany_vaccinations_by_state.tsv']
+
+for filename in filenames:
+	print(f'Downloading {filename!r} from impfdashboard.de...', end = '', flush = True)
+	r = requests.get(base+filename)
+	with open(f'tsv{sep+filename}', 'wb') as f:
+		f.write(r.content)
+	print('OK.')
 
 c = TSV2JSONConverter(r'tsv\germany_vaccinations_by_state.tsv')
 res = c.convert()
@@ -72,3 +116,5 @@ for day in delivery_timeseries:
 with open('json\germany_deliveries_timeseries_v2.json','w') as f:
 	f.write(json.dumps(delivery_timeseries_new, indent = 2))
 	#~ f.write(res)
+	
+print('ALL CONVERSIONS COMPLETED!')
