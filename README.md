@@ -1,4 +1,5 @@
-﻿# Coronavius-Impfdaten aus Deutschland (covid19-impfung-de)
+﻿# Coronavirus-Impfdaten aus Deutschland (covid19-impfung-de)
+### Zahlen zu Impfstofflieferungen & verimpften Dosen
 Impfdaten, wie sie auf https://impfdashboard.de/daten verfügbar sind, und verwandelt in das erheblich bessere JSON-Datenformat (seit 18. Januar 2022)
 
 Leider hat das Projekt letztes mal nicht so wie geplant funktioniert. Hoffentlich ist es beim zweiten Anlauf besser.
@@ -46,9 +47,7 @@ Eine Besichtigung von JSON-Daten (ganz allgemein) funktioniert übrigens besonde
 
 [Zeitreihe der Impfstofflieferungen](tsv/germany_deliveries_timeseries_v2.tsv)
 
-[Impf-Fortschritt nach Bundesland](tsv/germany_vaccinations_by_state.tsv)
-
-Der Datenstand der aktuellen, offiziellen Daten kann [hier (im JSON-Format)](https://impfdashboard.de/static/data/metadata.json) abgefragt werden.<br> <br>
+[Impf-Fortschritt nach Bundesland](tsv/germany_vaccinations_by_state.tsv)<br> <br>
 
 ## Datenquelle
 https://impfdashboard.de/daten
@@ -59,3 +58,5 @@ https://impfdashboard.de/daten
 [Zeitreihe der Impfstofflieferungen](https://impfdashboard.de/static/data/germany_deliveries_timeseries_v2.tsv)
 
 [Impf-Fortschritt nach Bundesland](https://impfdashboard.de/static/data/germany_vaccinations_by_state.tsv)
+
+Der Datenstand der aktuellen, offiziellen Daten kann [hier (im JSON-Format)](https://impfdashboard.de/static/data/metadata.json) abgefragt werden.
