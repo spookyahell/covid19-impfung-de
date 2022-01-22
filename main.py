@@ -7,7 +7,7 @@ from copy import copy
 from os.path import isfile
 from os import sep
 from datetime import datetime
-from subprocess import call
+from subprocess import call, check_output, CalledProcessError
 
 import requests
 
@@ -157,4 +157,27 @@ with open('json\germany_deliveries_timeseries_v2.json','w') as f:
 	
 print('ALL CONVERSIONS COMPLETED!')
 
-call(['cnp.cmd', stand_str])
+
+stuff_to_commit = ['tsv/germany_deliveries_timeseries_v2.tsv',
+	'tsv/germany_vaccinations_by_state.tsv',
+	'tsv/germany_vaccinations_timeseries_v2.tsv',
+	'json/germany_deliveries_timeseries_v2.json',
+	'json/germany_vaccinations_by_state.json',
+	'json/germany_vaccinations_timeseries_v2.json',
+	'json/germany_vaccinations_timeseries_v2_monthly/*.json',
+	'impfdaten*',
+	'stand',
+	'main.py']
+commit_cmds = [['git', 'add', f] for  f in stuff_to_commit]
+
+for command in commit_cmds:
+	call(command)
+try:
+	output = check_output(['git', 'commit', '-m', f'Daten aktualisiert ({stand_str})'])
+except CalledProcessError as e:
+	error_out = e.output.decode()
+	if 'no changes added to commit\n' in error_out:
+		print('No changes applied. Weird problem.')
+	else:
+		print(f'ERROR: Output: {error_out}')
+print(output)
