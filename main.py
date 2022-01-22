@@ -1,40 +1,78 @@
-﻿import json, requests, hashlib, sys
+﻿# by @spookyahell -- License: MIT
+
+import json
+import sys, locale, platform
+
 from copy import copy
 from os.path import isfile
 from os import sep
+from datetime import datetime
+from subprocess import call
+
+import requests
+
 from tsv2json import TSV2JSONConverter
 
-# Wir prüfen zuallererst, ob es bei der Webseite selbst Änderungen gegeben hat (wenn ja, teilen wir das dem Benutzer mit und brechen den Vorgang ab)
+# Deutsch, bitte!
+system = platform.system()
+if system == 'Windows':
+	locale.setlocale(locale.LC_ALL, 'deu_deu')
+else:
+	locale.setlocale(locale.LC_ALL, 'de_DE')
+
+
+
+# Wir prüfen zuallererst, ob es bei der Webseite selbst Änderungen gegeben hat
+# Die Methode dafür: Größe der Seite überprüfen, bei Abweichung von mehr als 10 bytes, abbrechen
 r = requests.get('https://impfdashboard.de/daten')
-md5_hash = hashlib.md5()
-md5_hash.update(r.content)
-digest = md5_hash.hexdigest()
 
 if isfile('impfdaten-hash'):
 	# Bei Vorhandensein eines vorherigen Hashes der Datenseite, den Hash kurz verifizieren
-	with open('impfdaten-hash') as f:
+	with open('impfdaten-length') as f:
 		jso = json.loads(f.read())
-		md5_digest = jso['digest']
 		length = jso['length']
-		
-	if md5_digest == digest:
-		print('Verified by hash. Site has not changed.')
-	else:
-		print(f'''Ehrr... oops, site has changed. (Previous length was {length}, now it's {length(r.content)}
+	
+	
+	diff = length(r.content) - length
+	if (diff > 5) or (diff < -5):
+		print(f'''Ehrr... oops, site has changed. (Previous length was {length}, now it's {len(r.content)})
 It's good policy to check the details of those changes first. Aborting.''')
 		sys.exit(1)
+	else:
+		print('Verified by length. Site has not changed.')
 	
 else:
-	#Bei fehlen eines Hashes, den Hash und die HTML im Verzeichnis speichern
+	#Bei fehlen der letzten Größe und die HTML im Verzeichnis speichern
 	with open('impfdaten.html', 'wb') as f:
 		f.write(r.content)
-	with open('impfdaten-hash','w') as f:
-		f.write(json.dumps({'digest':digest,'length':len(r.content)}))
+	with open('impfdaten-length','w') as f:
+		f.write(json.dumps({'length':len(r.content)}))
 		
 
 
 # Download der Originaldaten von impfdashboard.de
 base = 'https://impfdashboard.de/static/data/'
+
+meta = 'metadata.json'
+
+r = requests.get(base+meta)
+vaccinationsLastUpdated = r.json()['vaccinationsLastUpdated']
+
+stand_str = datetime.strptime(vaccinationsLastUpdated,'%Y-%m-%d %H:%M:%S').strftime('Stand: %d. %B %Y, %H:%M Uhr')
+
+if isfile('stand'):
+	with open('stand') as f:
+		last_stand = f.read()
+else:
+	last_stand = None
+		
+if stand_str != last_stand:
+	print('New data available, will now download, convert & commit...')
+	with open('stand','w') as f:
+		f.write(stand_str)
+else:
+	print('FEHLER: Es sind noch keine neuen Daten verfügbar.\nSpäter gerne erneut probieren')
+	sys.exit(2)
 
 filenames = ['germany_deliveries_timeseries_v2.tsv',
 	'germany_vaccinations_timeseries_v2.tsv',
@@ -118,3 +156,5 @@ with open('json\germany_deliveries_timeseries_v2.json','w') as f:
 	#~ f.write(res)
 	
 print('ALL CONVERSIONS COMPLETED!')
+
+call(['cnp.cmd', stand_str])
