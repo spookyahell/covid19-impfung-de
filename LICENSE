@@ -1,9 +1,9 @@
-MIT License
+﻿MIT+COVID19-DATA License
 
-Copyright (c) 2021 spookyahell
+Copyright (c) 2021-2022 spookyahell
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+and associated documentation files and also specifically including the COVID19 data files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -19,3 +19,29 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+ÜBERSETZUNG (ohne Gewähr)
+
+Alle Rechte vorbehalten (c) 2021-2022 spookyahell
+
+Es wird hiermit ein Recht ausgesprochen, die hier angebotene Software,
+sowie die damit verbunden Dokumentations-Dateien
+und in diesem Fall insbesondere auch die aufbereiteten COVID-19 Daten (hier und im weiteren abkürzend "Software" bezeichnet)
+völlig uneingeschränkt zu nutzen, das beinhaltet ohne Limitierungen
+das Recht zum kopieren, modifizieren, veröffentlichen, verteilen, Sublizenzen zu vergeben
+und/oder auch Kopien der Software kommerziell anzubieten ("zu verkaufen") und Personen,
+die dann hierdurch (oder anderweitig) die Software erhalten,
+diese Rechte ebenfalls zu übertragen, allerdings lediglich unter der folgenden Bedingung:
+
+Der obige Urheberrechtshinweis und diese Erlaubniserklärung
+muss in allen Kopien enthalten sein. Gilt auch für substanziel anteilige Kopien.
+
+DIE SOFTWARE WIRD IM "ISTZUSTAND" UND
+OHNE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG ZUR VERFÜGUNG GESTELLT,
+EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF GEWÄHRLEISTUNG DER MARKTFÄHIGKEIT,
+EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN DRITTER.
+IN KEINEM FALL SIND DIE AUTOREN ODER URHEBER HAFTBAR FÜR ANSPRUCHE,
+SCHÄDEN ODER SONSTIGE HAFTUNG, OB AUS VERTRAG, UNERLAUBTER HANDLUNG ODER ANDERWEITIG,
+DIE SICH AUS DEM, ODER IM ZUSAMMENHANG MIT DER SOFTWARE ODER DER NUTZUNG
+ODER ANDEREN HANDLUNGEN MIT DER SOFTWARE ERGEBEN.
