@@ -33,7 +33,9 @@ Daher habe ich beschlossen, diese Daten ab sofort zusätzlich in nach Monate auf
 [2021-11 (November)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-11.json)<br>
 [2021-12 (Dezember)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2021-12.json)<br>
 
-**2022:** [2022-01 (Januar)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2022-01.json)
+**2022**<br>
+[2022-01 (Januar)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2022-01.json)<br>
+[2022-02 (Februar)](json/germany_vaccinations_timeseries_v2_monthly/germany_vaccinations_timeseries_v2-2022-02.json)
 <hr/>
 
 [Zeitreihe der Impfstofflieferungen](json/germany_deliveries_timeseries_v2.json) (gesondert optimiert)
