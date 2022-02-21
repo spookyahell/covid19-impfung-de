@@ -7875,5 +7875,139 @@
         }
       }
     }
+  ],
+  "2022-02-15": [
+    {
+      "impfstoff": "comirnaty",
+      "region_dosen": {
+        "betriebe": {
+          "DE-Betriebe": "3120"
+        },
+        "arztpraxen": {
+          "DE-BW": "530",
+          "DE-BY": "80",
+          "DE-BE": "310",
+          "DE-BB": "15",
+          "DE-HB": "0",
+          "DE-HH": "395",
+          "DE-HE": "240",
+          "DE-MV": "15",
+          "DE-NI": "85",
+          "DE-NW": "260",
+          "DE-RP": "30",
+          "DE-SL": "20",
+          "DE-SN": "80",
+          "DE-ST": "35",
+          "DE-SH": "50",
+          "DE-TH": "75"
+        },
+        "oegd": {
+          "DE-BW": "25",
+          "DE-BY": "100",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        }
+      }
+    },
+    {
+      "impfstoff": "moderna",
+      "region_dosen": {
+        "betriebe": {
+          "DE-Betriebe": "3120"
+        },
+        "arztpraxen": {
+          "DE-BW": "530",
+          "DE-BY": "80",
+          "DE-BE": "310",
+          "DE-BB": "15",
+          "DE-HB": "0",
+          "DE-HH": "395",
+          "DE-HE": "240",
+          "DE-MV": "15",
+          "DE-NI": "85",
+          "DE-NW": "260",
+          "DE-RP": "30",
+          "DE-SL": "20",
+          "DE-SN": "80",
+          "DE-ST": "35",
+          "DE-SH": "50",
+          "DE-TH": "75"
+        },
+        "oegd": {
+          "DE-BW": "25",
+          "DE-BY": "100",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        }
+      }
+    },
+    {
+      "impfstoff": "johnson",
+      "region_dosen": {
+        "betriebe": {
+          "DE-Betriebe": "3120"
+        },
+        "arztpraxen": {
+          "DE-BW": "530",
+          "DE-BY": "80",
+          "DE-BE": "310",
+          "DE-BB": "15",
+          "DE-HB": "0",
+          "DE-HH": "395",
+          "DE-HE": "240",
+          "DE-MV": "15",
+          "DE-NI": "85",
+          "DE-NW": "260",
+          "DE-RP": "30",
+          "DE-SL": "20",
+          "DE-SN": "80",
+          "DE-ST": "35",
+          "DE-SH": "50",
+          "DE-TH": "75"
+        },
+        "oegd": {
+          "DE-BW": "25",
+          "DE-BY": "100",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        }
+      }
+    }
   ]
 }
