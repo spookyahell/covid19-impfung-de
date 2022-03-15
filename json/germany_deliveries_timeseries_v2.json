@@ -8475,5 +8475,209 @@
         }
       }
     }
+  ],
+  "2022-02-25": [
+    {
+      "impfstoff": "novavax",
+      "region_dosen": {
+        "oegd": {
+          "DE-BW": "192000",
+          "DE-BY": "225000",
+          "DE-BE": "63000",
+          "DE-BB": "42000",
+          "DE-HB": "12000",
+          "DE-HH": "33000",
+          "DE-HE": "108000",
+          "DE-MV": "27000",
+          "DE-NI": "138000",
+          "DE-NW": "309000",
+          "DE-RP": "69000",
+          "DE-SL": "18000",
+          "DE-SN": "69000",
+          "DE-ST": "39000",
+          "DE-SH": "51000",
+          "DE-TH": "36000"
+        }
+      }
+    }
+  ],
+  "2022-03-08": [
+    {
+      "impfstoff": "comirnaty",
+      "region_dosen": {
+        "arztpraxen": {
+          "DE-BW": "140",
+          "DE-BY": "130",
+          "DE-BE": "55",
+          "DE-BB": "30",
+          "DE-HB": "45",
+          "DE-HH": "0",
+          "DE-HE": "20",
+          "DE-MV": "0",
+          "DE-NI": "65",
+          "DE-NW": "85",
+          "DE-RP": "110",
+          "DE-SL": "10",
+          "DE-SN": "55",
+          "DE-ST": "10",
+          "DE-SH": "5",
+          "DE-TH": "65"
+        },
+        "oegd": {
+          "DE-BW": "0",
+          "DE-BY": "25",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "50",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        },
+        "apotheken": {
+          "DE-BW": "0",
+          "DE-BY": "0",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        }
+      }
+    },
+    {
+      "impfstoff": "moderna",
+      "region_dosen": {
+        "arztpraxen": {
+          "DE-BW": "140",
+          "DE-BY": "130",
+          "DE-BE": "55",
+          "DE-BB": "30",
+          "DE-HB": "45",
+          "DE-HH": "0",
+          "DE-HE": "20",
+          "DE-MV": "0",
+          "DE-NI": "65",
+          "DE-NW": "85",
+          "DE-RP": "110",
+          "DE-SL": "10",
+          "DE-SN": "55",
+          "DE-ST": "10",
+          "DE-SH": "5",
+          "DE-TH": "65"
+        },
+        "oegd": {
+          "DE-BW": "0",
+          "DE-BY": "25",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "50",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        },
+        "apotheken": {
+          "DE-BW": "0",
+          "DE-BY": "0",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        }
+      }
+    },
+    {
+      "impfstoff": "johnson",
+      "region_dosen": {
+        "arztpraxen": {
+          "DE-BW": "140",
+          "DE-BY": "130",
+          "DE-BE": "55",
+          "DE-BB": "30",
+          "DE-HB": "45",
+          "DE-HH": "0",
+          "DE-HE": "20",
+          "DE-MV": "0",
+          "DE-NI": "65",
+          "DE-NW": "85",
+          "DE-RP": "110",
+          "DE-SL": "10",
+          "DE-SN": "55",
+          "DE-ST": "10",
+          "DE-SH": "5",
+          "DE-TH": "65"
+        },
+        "oegd": {
+          "DE-BW": "0",
+          "DE-BY": "25",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "50",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        },
+        "apotheken": {
+          "DE-BW": "0",
+          "DE-BY": "0",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        }
+      }
+    }
   ]
 }
