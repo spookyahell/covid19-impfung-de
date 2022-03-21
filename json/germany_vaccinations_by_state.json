@@ -1,104 +1,104 @@
 {
   "DE-BB": {
-    "vaccinationsTotal": "4685127",
-    "peopleFirstTotal": "1755642",
-    "peopleFullTotal": "1743898",
-    "peopleBoosterTotal": "1298595"
+    "vaccinationsTotal": "4685715",
+    "peopleFirstTotal": "1755748",
+    "peopleFullTotal": "1744074",
+    "peopleBoosterTotal": "1298901"
   },
   "DE-BE": {
-    "vaccinationsTotal": "7693171",
-    "peopleFirstTotal": "2842735",
-    "peopleFullTotal": "2817338",
-    "peopleBoosterTotal": "2163703"
+    "vaccinationsTotal": "7696083",
+    "peopleFirstTotal": "2843246",
+    "peopleFullTotal": "2817927",
+    "peopleBoosterTotal": "2165515"
   },
   "DE-BUND": {
-    "vaccinationsTotal": "530409",
+    "vaccinationsTotal": "530418",
     "peopleFirstTotal": "201971",
-    "peopleFullTotal": "194906",
-    "peopleBoosterTotal": "141676"
+    "peopleFullTotal": "194907",
+    "peopleBoosterTotal": "141684"
   },
   "DE-BW": {
-    "vaccinationsTotal": "22233276",
-    "peopleFirstTotal": "8205081",
-    "peopleFullTotal": "8220261",
-    "peopleBoosterTotal": "6289872"
+    "vaccinationsTotal": "22239400",
+    "peopleFirstTotal": "8206146",
+    "peopleFullTotal": "8221868",
+    "peopleBoosterTotal": "6293344"
   },
   "DE-BY": {
-    "vaccinationsTotal": "26336781",
-    "peopleFirstTotal": "9718060",
-    "peopleFullTotal": "9807471",
-    "peopleBoosterTotal": "7316735"
+    "vaccinationsTotal": "26343702",
+    "peopleFirstTotal": "9719043",
+    "peopleFullTotal": "9809087",
+    "peopleBoosterTotal": "7321061"
   },
   "DE-HB": {
-    "vaccinationsTotal": "1606676",
-    "peopleFirstTotal": "613602",
-    "peopleFullTotal": "605168",
-    "peopleBoosterTotal": "436153"
+    "vaccinationsTotal": "1607028",
+    "peopleFirstTotal": "613690",
+    "peopleFullTotal": "605264",
+    "peopleBoosterTotal": "436322"
   },
   "DE-HE": {
-    "vaccinationsTotal": "12771862",
-    "peopleFirstTotal": "4825978",
-    "peopleFullTotal": "4684470",
-    "peopleBoosterTotal": "3513623"
+    "vaccinationsTotal": "12774160",
+    "peopleFirstTotal": "4826273",
+    "peopleFullTotal": "4685017",
+    "peopleBoosterTotal": "3515082"
   },
   "DE-HH": {
-    "vaccinationsTotal": "4062607",
-    "peopleFirstTotal": "1537857",
-    "peopleFullTotal": "1534944",
-    "peopleBoosterTotal": "1098563"
+    "vaccinationsTotal": "4063550",
+    "peopleFirstTotal": "1537959",
+    "peopleFullTotal": "1535193",
+    "peopleBoosterTotal": "1099159"
   },
   "DE-MV": {
-    "vaccinationsTotal": "3232796",
-    "peopleFirstTotal": "1196631",
-    "peopleFullTotal": "1196057",
-    "peopleBoosterTotal": "906242"
+    "vaccinationsTotal": "3233013",
+    "peopleFirstTotal": "1196661",
+    "peopleFullTotal": "1196100",
+    "peopleBoosterTotal": "906386"
   },
   "DE-NI": {
-    "vaccinationsTotal": "17071547",
-    "peopleFirstTotal": "6274462",
-    "peopleFullTotal": "6203324",
-    "peopleBoosterTotal": "5028837"
+    "vaccinationsTotal": "17073623",
+    "peopleFirstTotal": "6274798",
+    "peopleFullTotal": "6203913",
+    "peopleBoosterTotal": "5029989"
   },
   "DE-NW": {
-    "vaccinationsTotal": "38621153",
-    "peopleFirstTotal": "14404707",
-    "peopleFullTotal": "14130819",
-    "peopleBoosterTotal": "10906185"
+    "vaccinationsTotal": "38628582",
+    "peopleFirstTotal": "14405620",
+    "peopleFullTotal": "14132412",
+    "peopleBoosterTotal": "10911113"
   },
   "DE-RP": {
-    "vaccinationsTotal": "8474357",
-    "peopleFirstTotal": "3176287",
-    "peopleFullTotal": "3072859",
-    "peopleBoosterTotal": "2392805"
+    "vaccinationsTotal": "8476629",
+    "peopleFirstTotal": "3176817",
+    "peopleFullTotal": "3073606",
+    "peopleBoosterTotal": "2393805"
   },
   "DE-SH": {
-    "vaccinationsTotal": "6624507",
-    "peopleFirstTotal": "2340640",
-    "peopleFullTotal": "2346315",
-    "peopleBoosterTotal": "2072674"
+    "vaccinationsTotal": "6629110",
+    "peopleFirstTotal": "2340978",
+    "peopleFullTotal": "2346915",
+    "peopleBoosterTotal": "2076339"
   },
   "DE-SL": {
-    "vaccinationsTotal": "2213100",
-    "peopleFirstTotal": "810896",
-    "peopleFullTotal": "807871",
-    "peopleBoosterTotal": "643926"
+    "vaccinationsTotal": "2214241",
+    "peopleFirstTotal": "810962",
+    "peopleFullTotal": "808287",
+    "peopleBoosterTotal": "644585"
   },
   "DE-SN": {
-    "vaccinationsTotal": "7086901",
-    "peopleFirstTotal": "2650166",
-    "peopleFullTotal": "2611656",
-    "peopleBoosterTotal": "1926759"
+    "vaccinationsTotal": "7088499",
+    "peopleFirstTotal": "2650364",
+    "peopleFullTotal": "2612036",
+    "peopleBoosterTotal": "1927780"
   },
   "DE-ST": {
-    "vaccinationsTotal": "4222674",
-    "peopleFirstTotal": "1567992",
-    "peopleFullTotal": "1592486",
-    "peopleBoosterTotal": "1170398"
+    "vaccinationsTotal": "4222887",
+    "peopleFirstTotal": "1568009",
+    "peopleFullTotal": "1592524",
+    "peopleBoosterTotal": "1170556"
   },
   "DE-TH": {
-    "vaccinationsTotal": "3965026",
-    "peopleFirstTotal": "1487061",
-    "peopleFullTotal": "1486534",
-    "peopleBoosterTotal": "1086053"
+    "vaccinationsTotal": "3965716",
+    "peopleFirstTotal": "1487370",
+    "peopleFullTotal": "1486642",
+    "peopleBoosterTotal": "1086326"
   }
 }

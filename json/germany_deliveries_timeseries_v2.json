@@ -8679,5 +8679,184 @@
         }
       }
     }
+  ],
+  "2022-03-15": [
+    {
+      "impfstoff": "comirnaty",
+      "region_dosen": {
+        "arztpraxen": {
+          "DE-BW": "95",
+          "DE-BY": "95",
+          "DE-BE": "150",
+          "DE-BB": "15",
+          "DE-HB": "0",
+          "DE-HH": "65",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "45",
+          "DE-NW": "135",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "50",
+          "DE-ST": "5",
+          "DE-SH": "5",
+          "DE-TH": "5"
+        },
+        "oegd": {
+          "DE-BW": "250",
+          "DE-BY": "65",
+          "DE-BE": "50",
+          "DE-BB": "50",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "50",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "75",
+          "DE-TH": "0"
+        },
+        "apotheken": {
+          "DE-BW": "0",
+          "DE-BY": "0",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        }
+      }
+    },
+    {
+      "impfstoff": "moderna",
+      "region_dosen": {
+        "arztpraxen": {
+          "DE-BW": "95",
+          "DE-BY": "95",
+          "DE-BE": "150",
+          "DE-BB": "15",
+          "DE-HB": "0",
+          "DE-HH": "65",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "45",
+          "DE-NW": "135",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "50",
+          "DE-ST": "5",
+          "DE-SH": "5",
+          "DE-TH": "5"
+        },
+        "oegd": {
+          "DE-BW": "250",
+          "DE-BY": "65",
+          "DE-BE": "50",
+          "DE-BB": "50",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "50",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "75",
+          "DE-TH": "0"
+        },
+        "apotheken": {
+          "DE-BW": "0",
+          "DE-BY": "0",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        }
+      }
+    },
+    {
+      "impfstoff": "johnson",
+      "region_dosen": {
+        "arztpraxen": {
+          "DE-BW": "95",
+          "DE-BY": "95",
+          "DE-BE": "150",
+          "DE-BB": "15",
+          "DE-HB": "0",
+          "DE-HH": "65",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "45",
+          "DE-NW": "135",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "50",
+          "DE-ST": "5",
+          "DE-SH": "5",
+          "DE-TH": "5"
+        },
+        "oegd": {
+          "DE-BW": "250",
+          "DE-BY": "65",
+          "DE-BE": "50",
+          "DE-BB": "50",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "50",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "75",
+          "DE-TH": "0"
+        },
+        "apotheken": {
+          "DE-BW": "0",
+          "DE-BY": "0",
+          "DE-BE": "0",
+          "DE-BB": "0",
+          "DE-HB": "0",
+          "DE-HH": "0",
+          "DE-HE": "0",
+          "DE-MV": "0",
+          "DE-NI": "0",
+          "DE-NW": "0",
+          "DE-RP": "0",
+          "DE-SL": "0",
+          "DE-SN": "0",
+          "DE-ST": "0",
+          "DE-SH": "0",
+          "DE-TH": "0"
+        }
+      }
+    }
   ]
 }
