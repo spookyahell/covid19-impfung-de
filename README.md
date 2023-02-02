@@ -1,4 +1,7 @@
 ﻿# Coronavirus-Impfdaten aus Deutschland (covid19-impfung-de)
+### Impfdaten werden (bereits länger) nicht mehr eingespeist
+Siehe [Issue #3](https://github.com/spookyahell/covid19-impfung-de/issues/3#issuecomment-1413422311)
+
 ### Zahlen zu Impfstofflieferungen & verimpften Dosen
 Impfdaten, wie sie auf https://impfdashboard.de/daten verfügbar sind, und verwandelt in das erheblich bessere JSON-Datenformat (seit 18. Januar 2022)
 
