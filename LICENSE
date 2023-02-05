@@ -1,16 +1,19 @@
-﻿MIT+COVID19-DATA License
+MIT+COVID19-DATA License (v1.1)
 
-Copyright (c) 2021-2022 spookyahell
+v1.1 and any subsequent versions applies starting with any copies made published or spread in any other way after the publication date.
+A year after the subversion of the license is released (and projects have had time to adapt or opt-out of use of data or files from this project), some action may be taken against projects that do not comply or at least give a good explanation (e.g. clearly visible in their README) as to why they won't do so.
+
+Copyright (c) 2021-2023 spookyahell
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software
-and associated documentation files and also specifically including the COVID19 data files (the "Software"), to deal
+and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+copies (or substantial portions of the Software).
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -20,10 +23,29 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+For the provided scientific data, the following additions apply:
+The COVID19 data files may be used or distributed and reformatted, ammended, analysed etc. in any way possible.
+The data files may however NOT be presented, released, reported about or even modified in any way that would have potential for causing major scientific confusion about the contents within.
 
-ÜBERSETZUNG (ohne Gewähr)
+Any copy of the data files shall include the source of the files.
+For the tsv-originals: The original source (impfdashboard.de) must be listed.
+(The detailed source urls for the original files are to be taken from the document titled "README.md".)
 
-Alle Rechte vorbehalten (c) 2021-2022 spookyahell
+Any modifications must be clearly stated and explained in enough detail along with every copy.
+It must be written, at least additionally, in proper English language, to aide international comprehensibility.
+
+[Recommendation]
+A file or database format outside of standardized data file formats* is discouraged BUT ALLOED nonetheless IF at minimum a link to the data format specification is clearly provided.
+At best, you would include the full format specification with the project itself, provided the docs license provides that ability, legally speaking. 
+(If your file format is not in the list below, be readay to provide a publicly accessible specification of the file format. Alternatively, if for whatever reason you can only provide a link that is accessible to the people you are sharing the data with, that will also be fine.)
+
+*Some examples of standardized file formats (no intention for being exhaustive):
+json, tsv, csv, xml, sqlite, xls/xlsx
+
+
+ÜBERSETZUNG (stets ohne Gewähr)
+
+Alle Rechte vorbehalten (c) 2021-2023 spookyahell
 
 Es wird hiermit ein Recht ausgesprochen, die hier angebotene Software,
 sowie die damit verbunden Dokumentations-Dateien
@@ -35,13 +57,32 @@ die dann hierdurch (oder anderweitig) die Software erhalten,
 diese Rechte ebenfalls zu übertragen, allerdings lediglich unter der folgenden Bedingung:
 
 Der obige Urheberrechtshinweis und diese Erlaubniserklärung
-muss in allen Kopien enthalten sein. Gilt auch für substanziel anteilige Kopien.
+muss in allen Kopien enthalten sein. (Gilt auch für substanziell anteilige Kopien.)
 
-DIE SOFTWARE WIRD IM "ISTZUSTAND" UND
-OHNE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG ZUR VERFÜGUNG GESTELLT,
-EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF GEWÄHRLEISTUNG DER MARKTFÄHIGKEIT,
-EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN DRITTER.
-IN KEINEM FALL SIND DIE AUTOREN ODER URHEBER HAFTBAR FÜR ANSPRUCHE,
-SCHÄDEN ODER SONSTIGE HAFTUNG, OB AUS VERTRAG, UNERLAUBTER HANDLUNG ODER ANDERWEITIG,
-DIE SICH AUS DEM, ODER IM ZUSAMMENHANG MIT DER SOFTWARE ODER DER NUTZUNG
-ODER ANDEREN HANDLUNGEN MIT DER SOFTWARE ERGEBEN.
+DIE SOFTWARE WIRD IM "IST-ZUSTAND" UND OHNE AUSDRÜCKLICHE
+ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG ZUR VERFÜGUNG GESTELLT,
+EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF GEWÄHRLEISTUNG
+DER MARKTFÄHIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND
+NICHTVERLETZUNG VON RECHTEN DRITTER. IN KEINEM FALL SIND
+DIE AUTOREN ODER URHEBER HAFTBAR FÜR ANSPRUCHE, SCHÄDEN ODER
+SONSTIGE HAFTUNG, OB AUS VERTRAG, UNERLAUBTER HANDLUNG ODER
+ANDERWEITIG, DIE SICH AUS DEM, ODER IM ZUSAMMENHANG MIT DER
+SOFTWARE ODER DER NUTZUNG ODER ANDEREN HANDLUNGEN MIT DER
+SOFTWARE ERGEBEN.
+
+Für die bereitgestellten wissenschaftlichen Zusatz, gelten folgende Zusätze:
+Die COVID19 Daten-Dateien dürfen ohne jede Zustimmung weitergereicht, verteilt, neuformatiert und auch analysiert werden, in jedem erdenklichem Weg.
+Die wissenschaftlichen Inhalte dürfen dabei nicht aus dem Kontext gerissen werden oder gar verfremdet werden, sodass sie dann Gefahr laufen Verwirrung stiften.
+
+Eine Quellenangabe ist bei Datenweitergabe der wissenschaftlichen Daten stets erforderlich.
+Für die tsv-Originale gilt: Auch die Original-Quelle muss angegeben werden.
+(Sie lautet impfdashboard.de, genaueres ist im Dokument mit Titel "README.md" zu entnehmen.)
+
+Jede Änderung an der Formatierung muss bei jeder Veröffentlichung oder anderweitiger Weitergabe klar und deutlich dokumentiert sein.
+Diese Dokumnetation muss, zumindest zusätzlich, in englischer Sprache verfügbar sein, zwecks internationaler Verständlichkeit.
+
+[Empfehlung]
+Von einem Datenstrukturformat außerhalb der standardisierten Datenstruktur-Formaten* Gebrauch zu machen, wird abgeraten, aber auch dies ist nicht streng genommen untersagt, sondern erlaubt, wenn im Umfeld einer solchen Datei immer die Dokumentation für das Datenstrukturformat zumindestens verlinkt ist, besser noch vollständig zu lesen ist. (Wenn Sie Ihr Datenformat unten nicht vorfinden, dann seien Sie vorbereitet, einen öffentlich zugänglichen Link zur Spezifikation Ihres Formates anzubieten. Sofern Sie der Link, aus welchen Gründen auch immer, nur für die Personen erreichbar ist, an die auch die Datenweitergabe erfolgt, ist auch ein solch beschränkter Link zulässig.)
+
+*Ein paar Beispiele von standardisierten Datenstruktur-Formate (ohne Anspruch auf Vollständigkeit):
+json, tsv, csv, xml, sqlite, xls/xlsx
